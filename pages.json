@@ -1,0 +1,580 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	},
+	"pages": [
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/assets/assets",
+			"style": {
+				"navigationBarTitleText": "资产"
+			}
+		},
+		{
+			"path": "pages/product/product",
+			"style": {
+				"navigationBarTitleText": "产品"
+			}
+		},
+		{
+			"path": "pages/service/service",
+			"style": {
+				"navigationBarTitleText": "服务"
+			}
+		},
+		{
+			"path": "pages/kefu/kefu",
+			"style": {
+				"navigationBarTitleText": "客服"
+			}
+		}
+	],
+	"subPackages": [
+		{
+			"root": "pages/assets",
+			"pages": [
+				{
+					"path": "asset_appointment",
+					"style": {
+						"navigationBarTitleText": "资产预约"
+					}
+				},
+				{
+					"path": "asset_transaction",
+					"style": {
+						"navigationBarTitleText": "资产交易"
+					}
+				},
+				{
+					"path": "historyIncome",
+					"style": {
+						"navigationBarTitleText": "历史收益"
+					}
+				},
+				{
+					"path": "login_assestmessage",
+					"style": {
+						"navigationBarTitleText": "登录资产信息"
+					}
+				},
+				{
+					"path": "login_private",
+					"style": {
+						"navigationBarTitleText": "登录私募"
+					}
+				},
+				{
+					"path": "login_public",
+					"style": {
+						"navigationBarTitleText": "登录公募"
+					}
+				},
+				{
+					"path": "login_wallet",
+					"style": {
+						"navigationBarTitleText": "登录钱包"
+					}
+				},
+				{
+					"path": "private_appointment",
+					"style": {
+						"navigationBarTitleText": "私募预约"
+					}
+				},
+				{
+					"path": "private_transaction",
+					"style": {
+						"navigationBarTitleText": "私募交易"
+					}
+				},
+				{
+					"path": "public_investment",
+					"style": {
+						"navigationBarTitleText": "公募投资"
+					}
+				},
+				{
+					"path": "public_transaction",
+					"style": {
+						"navigationBarTitleText": "公募交易"
+					}
+				},
+				{
+					"path": "publicBuyDetail",
+					"style": {
+						"navigationBarTitleText": "公募购买详情"
+					}
+				},
+				{
+					"path": "publicEndInvestment",
+					"style": {
+						"navigationBarTitleText": "公募结束投资"
+					}
+				},
+				{
+					"path": "publicProductDetail",
+					"style": {
+						"navigationBarTitleText": "公募产品详情"
+					}
+				},
+				{
+					"path": "publicProductIncomeDetail",
+					"style": {
+						"navigationBarTitleText": "公募产品收益详情"
+					}
+				},
+				{
+					"path": "publicProductTransaction",
+					"style": {
+						"navigationBarTitleText": "公募产品交易"
+					}
+				},
+				{
+					"path": "publicSellDetail",
+					"style": {
+						"navigationBarTitleText": "公募卖出详情"
+					}
+				},
+				{
+					"path": "sellOut",
+					"style": {
+						"navigationBarTitleText": "卖出"
+					}
+				},
+				{
+					"path": "sellSuccess",
+					"style": {
+						"navigationBarTitleText": "卖出成功"
+					}
+				},
+				{
+					"path": "service_consultant",
+					"style": {
+						"navigationBarTitleText": "服务顾问"
+					}
+				},
+				{
+					"path": "user_Info",
+					"style": {
+						"navigationBarTitleText": "用户信息"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/home",
+			"pages": [
+				{
+					"path": "accountAndBinding",
+					"style": {
+						"navigationBarTitleText": "账户与绑定"
+					}
+				},
+				{
+					"path": "changeLoginPassword",
+					"style": {
+						"navigationBarTitleText": "修改登录密码"
+					}
+				},
+				{
+					"path": "changeNewPhone",
+					"style": {
+						"navigationBarTitleText": "更换新手机"
+					}
+				},
+				{
+					"path": "changePhone",
+					"style": {
+						"navigationBarTitleText": "更换手机"
+					}
+				},
+				{
+					"path": "changeTradePassword",
+					"style": {
+						"navigationBarTitleText": "修改交易密码"
+					}
+				},
+				{
+					"path": "chargeCoin",
+					"style": {
+						"navigationBarTitleText": "充值"
+					}
+				},
+				{
+					"path": "chooseFundCompony",
+					"style": {
+						"navigationBarTitleText": "选择基金公司"
+					}
+				},
+				{
+					"path": "chooseInvestCompony",
+					"style": {
+						"navigationBarTitleText": "选择投资公司"
+					}
+				},
+				{
+					"path": "combination",
+					"style": {
+						"navigationBarTitleText": "组合"
+					}
+				},
+				{
+					"path": "family",
+					"style": {
+						"navigationBarTitleText": "家庭"
+					}
+				},
+				{
+					"path": "Information",
+					"style": {
+						"navigationBarTitleText": "信息"
+					}
+				},
+				{
+					"path": "messageCenter",
+					"style": {
+						"navigationBarTitleText": "消息中心"
+					}
+				},
+				{
+					"path": "messageContent",
+					"style": {
+						"navigationBarTitleText": "消息内容"
+					}
+				},
+				{
+					"path": "messagePlatformNotice",
+					"style": {
+						"navigationBarTitleText": "平台公告"
+					}
+				},
+				{
+					"path": "messageShow",
+					"style": {
+						"navigationBarTitleText": "消息展示"
+					}
+				},
+				{
+					"path": "messageSuggest",
+					"style": {
+						"navigationBarTitleText": "消息建议"
+					}
+				},
+				{
+					"path": "myInformation",
+					"style": {
+						"navigationBarTitleText": "我的信息"
+					}
+				},
+				{
+					"path": "passwordManager",
+					"style": {
+						"navigationBarTitleText": "密码管理"
+					}
+				},
+				{
+					"path": "plant",
+					"style": {
+						"navigationBarTitleText": "计划"
+					}
+				},
+				{
+					"path": "portfolio_introd",
+					"style": {
+						"navigationBarTitleText": "组合介绍"
+					}
+				},
+				{
+					"path": "position",
+					"style": {
+						"navigationBarTitleText": "持仓"
+					}
+				},
+				{
+					"path": "public",
+					"style": {
+						"navigationBarTitleText": "公募"
+					}
+				},
+				{
+					"path": "public_welfare",
+					"style": {
+						"navigationBarTitleText": "公益"
+					}
+				},
+				{
+					"path": "search",
+					"style": {
+						"navigationBarTitleText": "搜索"
+					}
+				},
+				{
+					"path": "search-detail",
+					"style": {
+						"navigationBarTitleText": "搜索详情"
+					}
+				},
+				{
+					"path": "suggestFeedback",
+					"style": {
+						"navigationBarTitleText": "建议反馈"
+					}
+				},
+				{
+					"path": "tradingRules",
+					"style": {
+						"navigationBarTitleText": "交易规则"
+					}
+				},
+				{
+					"path": "transactionApplyPurchaseMessage",
+					"style": {
+						"navigationBarTitleText": "交易申请购买消息"
+					}
+				},
+				{
+					"path": "transactionDetails",
+					"style": {
+						"navigationBarTitleText": "交易详情"
+					}
+				},
+				{
+					"path": "transactionRedeemMessage",
+					"style": {
+						"navigationBarTitleText": "交易赎回消息"
+					}
+				},
+				{
+					"path": "transactionTransferInMessage",
+					"style": {
+						"navigationBarTitleText": "交易转入消息"
+					}
+				},
+				{
+					"path": "transactionTransferOutMessage",
+					"style": {
+						"navigationBarTitleText": "交易转出消息"
+					}
+				},
+				{
+					"path": "transferIn",
+					"style": {
+						"navigationBarTitleText": "转入"
+					}
+				},
+				{
+					"path": "transferInDetail",
+					"style": {
+						"navigationBarTitleText": "转入详情"
+					}
+				},
+				{
+					"path": "transferOut",
+					"style": {
+						"navigationBarTitleText": "转出"
+					}
+				},
+				{
+					"path": "withdrawCoin",
+					"style": {
+						"navigationBarTitleText": "提现"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/product",
+			"pages": [
+				{
+					"path": "morePrivateFund",
+					"style": {
+						"navigationBarTitleText": "更多私募基金"
+					}
+				},
+				{
+					"path": "myOptionalFund",
+					"style": {
+						"navigationBarTitleText": "我的自选基金"
+					}
+				},
+				{
+					"path": "newFund",
+					"style": {
+						"navigationBarTitleText": "新基金"
+					}
+				},
+				{
+					"path": "productAssetDetail",
+					"style": {
+						"navigationBarTitleText": "产品资产详情"
+					}
+				},
+				{
+					"path": "productDetail",
+					"style": {
+						"navigationBarTitleText": "产品详情"
+					}
+				},
+				{
+					"path": "productDetailHistoryNet",
+					"style": {
+						"navigationBarTitleText": "产品详情历史净值"
+					}
+				},
+				{
+					"path": "productPrivateDetail",
+					"style": {
+						"navigationBarTitleText": "产品私募详情"
+					}
+				},
+				{
+					"path": "productPrivateHistoryNet",
+					"style": {
+						"navigationBarTitleText": "产品私募历史净值"
+					}
+				},
+				{
+					"path": "purchase",
+					"style": {
+						"navigationBarTitleText": "购买"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/service",
+			"pages": [
+				{
+					"path": "bank_details",
+					"style": {
+						"navigationBarTitleText": "银行详情"
+					}
+				},
+				{
+					"path": "more_services",
+					"style": {
+						"navigationBarTitleText": "更多服务"
+					}
+				},
+				{
+					"path": "open_users",
+					"style": {
+						"navigationBarTitleText": "开户用户"
+					}
+				},
+				{
+					"path": "photo_details",
+					"style": {
+						"navigationBarTitleText": "照片详情"
+					}
+				},
+				{
+					"path": "private_fund",
+					"style": {
+						"navigationBarTitleText": "私募基金"
+					}
+				},
+				{
+					"path": "risk_assessment",
+					"style": {
+						"navigationBarTitleText": "风险评估"
+					}
+				},
+				{
+					"path": "service_addbank",
+					"style": {
+						"navigationBarTitleText": "添加银行卡"
+					}
+				},
+				{
+					"path": "service_bank",
+					"style": {
+						"navigationBarTitleText": "服务银行"
+					}
+				},
+				{
+					"path": "service_orderSure",
+					"style": {
+						"navigationBarTitleText": "服务订单确认"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/login",
+			"pages": [
+				{
+					"path": "register",
+					"style": {
+						"navigationBarTitleText": "注册"
+					}
+				},
+				{
+					"path": "resetPassword",
+					"style": {
+						"navigationBarTitleText": "重置密码"
+					}
+				},
+				{
+					"path": "setPassword",
+					"style": {
+						"navigationBarTitleText": "设置密码"
+					}
+				}
+			]
+		}
+	],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/font_image/icon_home.png",
+				"selectedIconPath": "static/font_image/icon_home.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/product/product",
+				"iconPath": "static/font_image/icon_procd.png",
+				"selectedIconPath": "static/font_image/icon_procd.png",
+				"text": "产品"
+			},
+			{
+				"pagePath": "pages/assets/assets",
+				"iconPath": "static/font_image/icon_asset.png",
+				"selectedIconPath": "static/font_image/icon_asset.png",
+				"text": "资产"
+			},
+			{
+				"pagePath": "pages/service/service",
+				"iconPath": "static/font_image/icon_servce.png",
+				"selectedIconPath": "static/font_image/icon_servce.png",
+				"text": "服务"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "wealth",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
+
